@@ -6,8 +6,6 @@ This project presents a **ResUNet-based multi-class semantic segmentation system
 
 Unlike conventional methods relying on manual digitization or generic CNN/U-Net models, our approach introduces **residual identity blocks within a U-Net encoder-decoder framework**, combined with a **custom Tversky loss function**, delivering superior accuracy in **heterogeneous rural landscapes**.
 
----
-
 ## 🚀 Key Features
 
 * **ResUNet Architecture**: Residual identity blocks enhance training stability and allow deeper learning while mitigating vanishing gradients.
@@ -15,8 +13,6 @@ Unlike conventional methods relying on manual digitization or generic CNN/U-Net 
 * **High-Resolution Processing**: Inputs are normalized into **512×512 pixel patches**, enabling fine-grained boundary detection.
 * **Cloud Scalability**: Architecture supports large-scale orthophoto datasets for rural mapping.
 * **Multi-Class Segmentation**: Extracts **buildings, roads**, and can be extended to other rural features with retraining.
-
----
 
 ## 🧠 Research Background
 
